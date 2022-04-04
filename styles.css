@@ -60,8 +60,8 @@ body {
 input[type=checkbox] {
     appearance: none;
     cursor: pointer;
-    height: 50px;
-    width: 80px;
+    height: 100%;
+    width: 100%;
     margin: 0;
     position: relative;
     top: 0;
@@ -71,6 +71,7 @@ input[type=checkbox] {
 input[type=checkbox]:checked {
     counter-increment: score;
 }
+
 
 
 .layer-1 {
@@ -149,7 +150,7 @@ input[type=checkbox]:checked {
     bottom: 0;
 
     animation-name: jump;
-    animation-duration: 0.7s;
+    animation-duration: 0.8s;
     animation-timing-function: cubic-bezier(.26,.93,.65,1.11);
     animation-iteration-count: infinite;
 }
